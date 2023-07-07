@@ -8,6 +8,7 @@ Installation
 Usage
 Contributing
 License
+
 Description
 The SmileSchool Tutorial webpage provides a user-friendly interface to access a wide range of smile-related tutorials, tips, and resources. It covers topics such as dental care, oral hygiene, cosmetic dentistry, and more. Users can explore different courses, watch videos, read articles, and interact with the community to enhance their smile knowledge and skills.
 
