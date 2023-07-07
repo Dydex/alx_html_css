@@ -2,12 +2,19 @@ body{
     display: flex;
     flex-direction: column;
     background-color: chocolate;
+    border: 3px solid black;
+    height:auto;
+    padding: 1%;
 }
+
 
 main{
     display: flex;
     flex-direction: row;
     flex:auto
+    h1{
+        color: chartreuse;
+    }
 }
 
 article{
@@ -19,3 +26,30 @@ aside{
     overflow-y: auto;
     flex: 1;
 }
+
+header{
+    border: 2px solid black;
+    height: auto;
+    background-color: rgb(28, 153, 147);
+    padding: 5px;
+}
+
+header div{
+    border:2px solid rgb(35, 12, 167);
+    height: auto;
+    background-color: rgb(142, 230, 142);
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.LOGO{
+    border-radius: 10%;
+    background-color: rgb(235, 102, 102);
+}
+
+#nav-links{
+    border-radius: 10%;
+    background-color: rgb(235, 102, 102);
+}
+
