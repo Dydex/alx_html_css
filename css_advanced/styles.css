@@ -1,0 +1,280 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10%;
+}
+
+body{
+    padding: 80px;
+    border: 20px;
+}
+
+.hero_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.mainpart{
+    padding: 20px;
+    height: 1093px;
+
+    color: white;
+    background-size: cover;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-image: url("images/background\ \(3\).png")
+    
+}
+
+#first-logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.user_profile {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.user_profile h3, .user_profile p {
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.middle h1{
+    font-size: 120px;
+    margin: 0px;
+}
+
+#text{
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#last{
+    text-align: center;
+    height: 10%;
+}
+
+#last h2 span{
+    color: #C271FF;
+}
+
+.testimonials{
+    padding: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-size: 1440px 392px;
+    background-image: url(images/background\ \(2\).png)
+     
+}
+
+.middle button{
+    background-color:rgb(203, 125, 241);
+    border: transparent;
+    width: 180px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+}
+
+.smile-image{
+    display:flex;
+    justify-content: space-between;
+    color: rgba(7, 22, 41, 0.50);
+}
+
+#tutorials{
+    display: flex;
+    justify-content: center;
+    color: rgba(7, 22, 41, 0.50);
+}
+
+#tutorials span{
+    color: #C271FF;
+}
+
+ #member{
+    width: 100%;
+    height: 502px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #071629;
+}
+
+#free{
+    text-align: center;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#free span{
+    color: #C271FF;
+}
+
+.smile_group {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: #FFF;
+}
+
+.smile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#member button{
+    background-color:rgb(203, 125, 241);
+    border: transparent;
+    padding: 20px;
+    border-radius: 22px;
+    text-align: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.bb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.faq{
+    display: flex;
+    justify-content: center;
+    color: #0e294d;
+}
+
+.how-does{
+    display:flex;
+    justify-content: space-around;
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#how-does-this{
+    display:flex;
+    justify-content: space-around;
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.how-does p{
+    color: rgba(7, 22, 41, 0.50);
+}
+
+#how-does-this p{
+    color: rgba(7, 22, 41, 0.50);
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #071629;
+    height: 249px;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    line-height: normal;
+}
+
+.last{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 60px;
+
+}
+
+.user_area{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #C271FF;
+}
+
+.rating_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #C271FF;
+}
+
+#diagonal h2{
+    color: #071629;
+}
+
+#sad h2{
+    color: #071629;
+}
+
+#natural h2{
+    color: #071629;
+}
+
+#happy h2{
+    color: #071629;
+}
+
+.faq h1{
+    color: #071629;
+}
