@@ -111,7 +111,7 @@ img{
      
 }
 
-.middle button{
+.shadow-button{
     background-color:rgb(203, 125, 241);
     border: transparent;
     width: 180px;
@@ -119,6 +119,7 @@ img{
     padding: 20px;
     text-align: center;
     color: #FFF;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .smile-image{
@@ -173,7 +174,7 @@ img{
     align-items: center;
 }
 
-#member button{
+.shadow-button{
     background-color:rgb(203, 125, 241);
     border: transparent;
     padding: 20px;
@@ -181,6 +182,7 @@ img{
     text-align: center;
     justify-content: center;
     color: #FFF;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .bb{
