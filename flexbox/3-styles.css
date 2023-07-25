@@ -379,7 +379,7 @@
 }
 /* Section SERVICES ======= */
 
-.section-services .row {
+.section-services ul.row {
   flex-wrap: wrap;
 }
 
