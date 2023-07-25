@@ -181,11 +181,15 @@
       ============================= */
   
   .row {
+    display: flex;
+  }
+
+  ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
   }
+  
   
   [class*='col-'] {
     padding: 0.5rem;
@@ -223,7 +227,7 @@
   }
   
   .nav .nav-link {
-    display: flex;
+    display: block;
     padding: 0.5rem 0;
     position: relative;
   }
@@ -294,7 +298,7 @@
   }
   
   .social-link {
-    display: flex;
+    display: block;
   }
   
   .social-link > svg {
@@ -367,17 +371,17 @@
   .section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
   }
-  
-  /* Section Latest news ============================= */
-  .section-latest-news ul.row{
-    display: flex;
-    flex-direction: row-reverse;
-  }
+/* Section Latest news
+============= */
 
-  /* Section SERVICES ============================= */
-  .section-services .row{
-    flex-wrap: wrap;
-  }
+.section-latest-news .row {
+  flex-direction: row-reverse;  
+}
+/* Section SERVICES ======= */
+
+.section-services .row {
+  flex-wrap: wrap;
+}
 
   /*** 4. CARD ***/
   
@@ -435,7 +439,7 @@
   }
   
   .card-work .card-title a {
-    display: flex;
+    display: block;
     text-decoration: none;
     padding-top: 45%;
   }
@@ -461,7 +465,7 @@
   }
   
   .card-services a {
-    display: flex;
+    display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
   }
@@ -488,7 +492,7 @@
   }
   
   .card-testimonial .card-quote cite {
-    display: flex;
+    display: block;
     padding-top: 1rem;
     color: var(--color-primary);
   }
@@ -506,3 +510,4 @@
     font-size: 10rem;
     z-index: -1;
   }
+    
