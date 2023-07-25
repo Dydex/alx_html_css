@@ -180,23 +180,23 @@
   /* Grid
       ============================= */
   
-  .row {
-    margin: 0;
+  ul.row {
+    margin: -1rem;
     padding: 0;
     list-style: none;
     display: flex;
   }
   
   [class*='col-'] {
-    padding: 0.5rem;
+    margin: 1rem;
   }
   
   .col-1-3 {
-    width: 33.33%;
+    width: calc((100% / 3) - 2rem);
   }
   
   .col-1-2 {
-    width: 50%;
+    width: calc((100% / 2) - 2rem);
   }
   
   /* Navbar
@@ -259,15 +259,9 @@
          background: transparent;
   }
   
-  .header-logo {
-    position: var(--header-logo-position);
-  }
-  
-  .header-logo a {
-    display: var(--header-logo-link-display);
-    position: var(--header-logo-link-position);
-    top: var(--header-logo-link-top);
-    left: var(--header-logo-link-left);
+  .header-container{
+    display: flex;
+    justify-content: space-between;
   }
   
   /* Footer
@@ -369,9 +363,14 @@
   }
   
   /* Section Latest news ============================= */
-  .section-latest-news ul.row{
+  .section-latest-news .row{
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  /* Section SERVICES ============================= */
+  .section-services .row{
+    flex-wrap: wrap;
   }
 
   /*** 4. CARD ***/
