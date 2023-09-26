@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Form</title>
+</head>
+<body>
+    <form>
+        <h2>Subscription Form</h2>
+
+        <label for="name">Name: <span aria-label="=required">*</span></label>
+        <input type="text" id="name" name="name" placeholder="Name">
+
+        <p>
+        <label for="email">Email: <span aria-label="=required">*</span></label>
+        <input type="email" id="email" name="email" placeholder="Email">
+        </p>
+
+        <h3>Subscription Preference</h3>
+
+        <p>
+        <input type="radio" id="monthly" name="subscription">
+        <label for="monthly">Monthly <span aria-label="=required">*</span></label>
+        </p>
+
+        <p>
+        <input type="radio" id="yearly" name="subscription">
+        <label for="yearly">Yearly <span aria-label="=required">*</span></label>
+        </p>
+         
+        <button type="submit">Subscribe</button>
+    </form>
+    <style>
+        form {
+            /* Centers the form on the page */
+            margin: 0 auto;
+            width: 400px;
+            /* Form outline */
+            padding: 1em;
+            border: 5px solid rgb(7, 85, 109);
+            border-radius: 1em;
+            background-color: chocolate;
+        }
+
+        button {
+            /* Used to adjust the button to the middle */
+            margin-left: 40%;
+        }
+
+        label {
+            /* Uniform size & alignment */
+            display: inline-block;
+            width: 90px;
+            text-align: left;
+        }
+
+        h2 {
+            margin-left: 20%;
+        }
+    </style>
+</body>
+</html>
